@@ -34,7 +34,7 @@ public class ConexionExaccta {
 		String timestamp = getTimestamp();
 		String key = corporation + admin + timestamp + password;
 		String token = getMD5(key);
-		String hola;
+		
 		
 		String servicioDatosEmpresa = "https://www.exaccta.com/api/xpens/v1/company";	
 		
